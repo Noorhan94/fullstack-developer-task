@@ -1,0 +1,33 @@
+.category-link {
+  color: #1D1F22;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 25px; 
+}
+.active-category {
+  color: #5ECE7B;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #5ECE7B;
+  padding-bottom: 25px; 
+  transition: border-color 0.3s;
+}
+
+  .btn.disabled, .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .storeLogo{
+    width: 31px;
+    height: 31px;
+  }
+
+  .headerCartBtn{
+    background-color: white;
+    border: none;
+  }
+  .headerDiv{
+    height: 80px;
+
+  }

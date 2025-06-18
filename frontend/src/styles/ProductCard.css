@@ -1,0 +1,28 @@
+
+.quick-shop-btn {
+  bottom: 15%;
+  right: 5%;
+  width: 52px;
+  height: 52px;
+  background-color: #5ECE7B;
+  transition: opacity 0.3s ease;
+  box-shadow: 0px 4px 11px 0px #1D1F221A;
+}
+.product-card:hover  {
+  box-shadow: 0px 4px 35px 0px #A8ACB030;
+}  
+.productImageContainer  { 
+  height: 200px;
+}
+
+  .outOfStockText{
+  color: rgb(59, 59, 59);
+  font-size: 110%;
+  }
+
+  .productName {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0px;
+  }

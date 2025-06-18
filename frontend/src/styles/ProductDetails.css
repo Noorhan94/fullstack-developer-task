@@ -1,0 +1,66 @@
+/* Thumbnail gallery */
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnail.selected {
+  border-color: #000;
+}
+
+/* Main image */
+.main-image {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Carousel Arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-arrow.left {
+  left: 15px;
+}
+
+.carousel-arrow.right {
+  right: 15px;
+}
+
+/* Attribute buttons */
+.attribute-btn {
+  min-width: 70px;
+  min-height: 40px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border : 2px solid  black ;
+}
+
+.attribute-btn.selected {
+  background-color: black;
+  color: white;
+}
+
+
+/* Swatch colors */
+.swatch-color {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cfcfcf ;
+  cursor: pointer;
+}

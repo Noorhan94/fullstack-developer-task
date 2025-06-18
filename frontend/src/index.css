@@ -1,0 +1,35 @@
+/* index.css */
+body {
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+/* Swatch wrapper */
+.swatch-wrapper {
+  padding: 2px;
+  border: 2px solid transparent;
+}
+
+.swatch-wrapper.selected {
+  border-color: #019910;
+}
+
+
+
+.color-black {
+  background-color: black;
+}
+.color-white {
+  background-color: white;
+}
+.color-green {
+  background-color: #44FF03;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-cyan {
+  background-color: cyan;
+}
