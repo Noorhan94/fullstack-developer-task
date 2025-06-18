@@ -106,7 +106,7 @@ const ProductDetails = () => {
                     className={`${
                       attr.type === 'swatch' ? 'swatch-wrapper' : ''
                     } ${isSelected && attr.type === 'swatch' ? 'selected' : ''}`}
-                    data-testid={`product-attribute-${kebabName}-${kebabItem}`}
+                    data-testid={`product-attribute-${kebabName}-${kebabItem.charAt(0).toUpperCase()+ kebabItem.slice(1)}`}
                   >
                     <button
                       key={item}
