@@ -2,6 +2,7 @@
 
 export const ATTR_NOT_SELECTED_MSG = 'Please select all attributes!';
 export const ADD_TO_CART_TEXT = 'Add to Cart';
+export const PRICE = 'PRICE';
 export const OUT_OF_STOCK_TEXT = 'Out of Stock';
 export const LOADING_PRODUCTS_TEXT = 'Loading products...';
 export const ERROR_LOADING_PRODUCTS = 'Error loading products:';
