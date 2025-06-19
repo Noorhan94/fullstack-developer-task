@@ -10,6 +10,7 @@ import {
   ATTR_NOT_SELECTED_MSG,
   ADD_TO_CART_TEXT,
   OUT_OF_STOCK_TEXT,
+  PRICE
 } from '../utils/constants';
 
 import '../styles/ProductDetails.css';
@@ -126,7 +127,7 @@ const ProductDetails = () => {
               </div>
             </div>
           ))}
-          <p className="fw-bold text-uppercase">price:</p>
+          <p className="fw-bold text-uppercase">{PRICE}:</p>
           <p className="h5 mb-4 fw-bold">${product.price.toFixed(2)}</p>
 
           <button
